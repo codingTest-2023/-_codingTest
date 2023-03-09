@@ -1,7 +1,5 @@
-import java.io.*;
-import java.util.*;
 //프로그래머스 카드 뭉치
-public class _0309_03 {
+public class _0308_03 {
     public static void main(String[] args) {
         System.out.println(new Solution().solution(new String[]{"a", "b", "c"}, new String[]{"d", "e"}, new String[]{"b", "c", "d", "e"}));
     }

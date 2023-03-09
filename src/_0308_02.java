@@ -1,7 +1,6 @@
-import java.io.*;
 import java.util.*;
 //프로그래머스 대충만든 자판
-public class _0309_02 {
+public class _0308_02 {
     public static void main(String[] args) {
         System.out.println(new Solution().solution(new String[]{"ABACD", "BCEFD"}, new String[]{"ABCD","AABB"}));
     }
