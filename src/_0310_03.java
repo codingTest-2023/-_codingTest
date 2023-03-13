@@ -1,6 +1,6 @@
 import java.util.*;
 //프로그래머스 테이블 해시 함수
-public class _3010_03 {
+public class _0310_03 {
     public static void main(String[] args) {
         System.out.println(new Solution().solution(new int[][]{new int[]{2, 2, 6},new int[]{1, 5, 10}, new int[]{4, 2, 9}}, 2,2,3));
     }
