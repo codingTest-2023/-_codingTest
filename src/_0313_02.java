@@ -1,5 +1,6 @@
 import java.util.*;
 // 프로그래머스 디펜스 게임 lv 2
+
 public class _0313_02 {
     public static void main(String[] args) {
         System.out.println(new Solution().solution(	7, 3, new int[]{4, 2, 4, 5, 3, 3, 1}));
