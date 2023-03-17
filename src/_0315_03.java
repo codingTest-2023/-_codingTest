@@ -1,5 +1,5 @@
 //프로그래머스 푸드 파이트 대회 lv 1
-public class _0316_03 {
+public class _0315_03 {
     public static void main(String[] args) {
 
     }
