@@ -1,4 +1,4 @@
-import java.time.LocalTime;;
+import java.time.LocalTime;
 import java.util.*;
 //프로그래머스 주차 요금 계산 lv2
 public class _0320_02 {

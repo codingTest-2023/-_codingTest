@@ -7,8 +7,8 @@ public class _0320_01 {
     }
     static class Solution {
         public int solution(int[] queue1, int[] queue2) {
-            long queue1_sum = Arrays.stream(queue1).reduce((left, right) -> left + right).getAsInt();
-            long queue2_sum = Arrays.stream(queue2).reduce((left, right) -> left + right).getAsInt();
+            long queue1_sum = Arrays.stream(queue1).reduce(Integer::sum).getAsInt();
+            long queue2_sum = Arrays.stream(queue2).reduce(Integer::sum).getAsInt();
             if (queue1_sum == queue2_sum) return 0;
 
             Deque<Integer> deque1 = new ArrayDeque<>(List.of(Arrays.stream(queue1).boxed().toArray(Integer[] :: new)));
@@ -30,7 +30,7 @@ public class _0320_01 {
                     deque1.add(deque2.poll());
                     continue;
                 }
-                if (queue1_sum == queue2_sum) return cnt - 1;
+                return cnt - 1;
             }
             return -1;
         }
