@@ -25,7 +25,6 @@ public class _0323_01 {
         public List<List<String>> calculator(){
             List<List<String>> sanction_id_list = new ArrayList<>();
             List<String > id_list;
-            int cnt = 0;
             for (String banned : banned_id){
                 id_list = new ArrayList<>();
                 for (String user : user_id){
