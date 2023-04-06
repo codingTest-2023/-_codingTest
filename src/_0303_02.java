@@ -34,15 +34,15 @@ public class _0303_02 {
             for (int i = 0; i < 3; i++){
                 StringBuilder temp = new StringBuilder();
                 for (int j = 0; j < 3; j++){
-                   temp.append(String.valueOf(board[j].charAt(i)));
+                   temp.append(board[j].charAt(i));
                 }
                 if (key.equals(temp.toString())) return true;
             }
             StringBuilder temp1 = new StringBuilder();
             StringBuilder temp2 = new StringBuilder();
             for (int i = 0; i < 3; i++){
-                temp1.append(String.valueOf(board[i].charAt(i)));
-                temp2.append(String.valueOf(board[2 - i].charAt(i)));
+                temp1.append(board[i].charAt(i));
+                temp2.append(board[2 - i].charAt(i));
             }
             if (key.equals(temp1.toString())) return true;
             return key.equals(temp2.toString());

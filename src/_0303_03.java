@@ -11,7 +11,7 @@ public class _0303_03 {
             Arrays.sort(weights);
             HashMap<Double, Integer> hashMap = new HashMap<>();
             for (int wI : weights){
-                double w = (double) wI;
+                double w = wI;
                 if (hashMap.containsKey(w)){
                     answer += hashMap.get(w);
                 }
